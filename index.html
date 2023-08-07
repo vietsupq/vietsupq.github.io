@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bông</title>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/bongg7.gif">
+  <!-- Bootstrap -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap" rel="stylesheet">
+  <!-- AOS -->
+  <link href="assets/vendor/aos/css/aos.css" rel="stylesheet">
+  <!-- lightbox -->
+  <link rel="stylesheet" href="assets/vendor/lightbox/css/lightbox.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    /* Thêm CSS để thay đổi kiểu font chữ */
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Thêm CSS để thực hiện hiệu ứng khi di chuột vào hình ảnh chuột */
+    .mymail {
+      padding: 20px;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out; /* Thêm hiệu ứng chuyển động (transition) cho thuộc tính transform */
+    }
+
+    .mymail:hover {
+      transform: scale(1.8); /* Thu nhỏ phần tử khi di chuột vào */
+    }
+
+    /* Thêm CSS để thực hiện hiệu ứng thay đổi kiểu font chữ khi di chuột vào */
+    .myElement {
+      font-family: 'Poppins', sans-serif; /* Đặt kiểu font chữ ban đầu */
+      transition: font-family 0.3s ease-in-out; /* Thêm hiệu ứng chuyển động (transition) cho thuộc tính font-family */
+    }
+
+    .myElement:hover {
+      font-family: 'Arial', sans-serif; /* Thay đổi kiểu font chữ khi di chuột vào */
+    }
+  </style>
+
+</head>
+<body class="overflow-hidden">
+  <audio class="audio" src="assets/audio/tiectrasao.mp3" autoplay type="audio" loop></audio>
+  <!-- mail section -->
+  <div id="mail-section" class="open" onclick="mulai()">
+    <div class="bg-white px-3 py-5 rounded text-center m-3">
+      <h2>Hôm nay là 1 ngày đặc biệt 😘</h2>
+      <div class="mymail">
+        <img src="assets/img/mail.png" id="mail" alt="surat" class="mail img-fluid my-3">
+      </div>
+      <h3>Click vào lá thư nhá!</h3>
+    </div>
+  </div>  
+
+  <!-- content section -->
+  <div id="content-section">
+    <img src="assets/img/hinh-anh-dong-tinh-yeu-trai-tim-cam-roi.gif" class="confetti" alt="confetti">
+    <div class="container py-4">
+      <!-- banner -->
+      <!-- <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="assets/img/bongg5.gif" alt="Bông" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- Banner 5 -->
+      <div class="row my-4">
+        <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="my">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="assets/img/bongg44.gif" alt="Bông" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner -->
+      <!-- <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="assets/img/bongg6.gif" alt="Bông" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- Banner 6 -->
+      <!-- <div class="row my-4">
+        <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="assets/img/bongg6.gif" alt="Bông" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row my-4">
+        <div class="col-lg-6 my-3" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+          <div class="my">
+            <div class="card">
+              <div class="card-body text-center">
+                <a href="assets/img/bongg6.gif" data-lightbox="imageAnya">
+                  <img src="assets/img/bongg6.gif" alt="Bông" class="img-fluid rounded">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- banner -->
+      <!-- <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="assets/img/bongg7.gif" alt="Bông" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="col-lg-6 my-3" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+        <div class="my">
+          <div class="card">
+            <div class="card-body text-center">
+              <a href="assets/img/bongg6.gif" data-lightbox="imageAnya">
+                <img src="assets/img/bongg6.gif" alt="Bông" class="img-fluid rounded rotate-gif">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner7 -->
+      <div class="row my-4">
+        <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="my">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="assets/img/bongg7.gif" alt="Bông" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- kata-kata -->
+      <!-- <div class="row my-5">
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4>Chúc mừng sinh nhật 🤗</h4>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row my-4">
+        <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4>Chúc mừng sinh nhật 🎂</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4>🎉 Happy Birthday 🎉</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4> 💖 Chúc mừng sinh nhật 🥳</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4>💞 Bông 💞</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col-lg-6 my-3" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+          <div class="card">
+            <div class="card-body text-center">
+              <a href="assets/img/content/bongg8.jpg" data-lightbox="imageAnya">
+                <img src="assets/img/content/bongg8.jpg" alt="image 1" class="custom-image-size">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 my-3" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+          <div class="card">
+            <div class="card-body text-center">
+              <a href="assets/img/content/bongg9.jpg" data-lightbox="imageAnya">
+                <img src="assets/img/content/bongg9.jpg" alt="image 2" class="custom-image-size">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="my">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="assets/img/bongg15.jpg" alt="Bông" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="my">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="assets/img/bongg16.jpg" alt="Bông" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="row my-4">
+        <div class="col-lg-6 my-3" data-aos="fade-up-right" data-aos-duration="1000" data-aos-easing="linear">
+          <div class="card">
+            <div class="card-body text-center">
+              <video controls class="custom-video-size">
+                <source src="assets/video/bongg10.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="row my-4">
+          <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+            <div class="my">
+              <div class="card">
+                <div class="card-body text-center">
+                  <video controls class="custom-video-size">
+                    <source src="assets/video/bongg10.mp4" type="video/mp4">
+                  </video>                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="col-lg-6 my-3" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+          <div class="card">
+            <div class="card-body text-center">
+              <video controls class="custom-video-size">
+                <source src="assets/video/bongg11.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="row my-4">
+        <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="my">
+            <div class="card">
+              <div class="card-body text-center">
+                <video controls class="custom-video-size">
+                  <source src="assets/video/bongg11.mp4" type="video/mp4">
+                </video>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row my-4" onclick="makeawish()">
+        <div class="col" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+          <div class="bg-make-a-wish text-center">
+            <img src="assets/img/banh.gif" alt="Make a Wish" class="makeawish">
+            <div class="myElement">
+              <div class="card">
+                <div class="card-body text-center">
+                Click vào nha 😘
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- By tung -->
+      <!-- <div class="row my-4">
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <a href="file:///C:/Users/Admin/Downloads/tung.png" target="_blank" class="text-decoration-none">Made with @tung</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div> -->
+  <!-- By @Tung -->
+  <div class="row my-4">
+    <div class="col mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card">
+        <div class="card-body text-center">
+          <a target="_blank" class="text-decoration-none">Made with @tung</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- script -->
+  <script src="assets/vendor/jquery/jquery-3.7.0.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/js/aos.js"></script>
+  <script src="assets/vendor/lightbox/js/lightbox.min.js"></script>
+  <script src="assets/vendor/sweetalert/sweetalert2.all.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
